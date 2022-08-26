@@ -1,5 +1,5 @@
 # CartaoDeVisitas
-Fiz um cartão de visitas para treinar promisses em js
+Fiz um cartão de visitas para treinar promises em js
 
 link do site: https://cartao-de-visitas-cyan.vercel.app/
 
