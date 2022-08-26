@@ -1,0 +1,187 @@
+.home_container {
+   width: 100%;
+   height: 100vh;
+   background: #ecf0f3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.home_container .business_card_content {
+   width: 425px;
+   height: 650px;
+   /* background-color: red; */
+   background: #ecf0f3;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 20px;
+}
+
+.home_container .business_card_content .img_boll {
+   width: 200px;
+   height: 200px;
+   /* border: 6px solid #ccc; */
+   border-radius: 50%;
+   padding: .8rem;
+   margin: 1rem;
+
+   background: #ecf0f3;
+   box-shadow: -3px -3px 7px #ffffff,
+      3px 3px 5px #ceced1;
+}
+
+.home_container .business_card_content .avatar {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+   /* background-color: #0093E9;
+   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+   padding: .4rem; */
+}
+
+.home_container .business_card_content .card_informations {
+   width: 100%;
+   height: 100%;
+   background: #ecf0f3;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+}
+
+.home_container .business_card_content .card_informations .informations_content {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.home_container .business_card_content .card_informations .name_content {
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: 500;
+   color: #31344b;
+}
+
+.home_container .business_card_content .card_informations .name_content .nickname {
+   font-size: .8rem;
+   color: #b1b2bb;
+}
+
+.home_container .business_card_content .card_informations .aboutme_content {
+   width: 100%;
+   height: auto;
+   text-align: center;
+   /* background-color: blue */
+
+}
+
+.home_container .business_card_content .card_informations .aboutme_content .aboutme_text {
+   color: #44476a;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.home_container .business_card_content .card_informations .socialMedia {
+   width: 100%;
+   /* background-color: red */
+   margin-top: 1.5rem;
+}
+
+.home_container .business_card_content .card_informations .socialMedia ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+.home_container .business_card_content .card_informations .socialMedia ul li a {
+   /* background-color: #80D0C7; */
+   width: 45px;
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 1.1rem;
+   background: #ecf0f3;
+   box-shadow: -3px -3px 7px #ffffff,
+      3px 3px 5px #ceced1;
+   /* color: #0093E9; */
+   position: relative;
+   z-index: 3;
+}
+
+.home_container .business_card_content .card_informations .socialMedia ul li a:hover:before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   border-radius: 50%;
+   background: #ecf0f3;
+   box-shadow: inset -3px -3px 7px #ffffff,
+      inset 3px 3px 5px #ceced1;
+}
+
+
+.home_container .business_card_content .card_informations .contact {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.home_container .business_card_content .card_informations .contact a {
+   color: #31344b;
+   width: 140px;
+   font-size: 1rem;
+   font-weight: 400;
+   cursor: pointer;
+   padding: 1rem;
+   text-decoration: none;
+   gap: .3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   line-height: 0;
+   /* font-weight: 400; */
+   border-radius: 5px;
+   position: relative;
+   z-index: 3;
+}
+
+.home_container .business_card_content .card_informations .follower_content {
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: 1rem 0rem 2rem 0;
+   color: rgb(150, 150, 150);
+   font-weight: 500;
+}
+
+.home_container .business_card_content .card_informations .follower_content .followers,
+.followings {
+   color: #31344b;
+}
+
+
+@media (max-width: 425px) {
+   .home_container .business_card_content {
+      width: 100%;
+      height: 100%;
+      /* background-color: green; */
+   }
+
+   .home_container .business_card_content .img_boll {
+      /* width: 150px;
+      height: 150px; */
+
+   }
+}
